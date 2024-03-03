@@ -6,12 +6,12 @@ import {LogIn,UserPlus }from 'lucide-react';
 const Navbar = () => {
   return (
 
-    <div className='flex justify-around  w-screen'>
+    <div className='flex justify-around  w-screen '>
       <div className='w-[15%]'>
         <img src={logoImage} alt="logoImage" />
       </div>
 
-      <div className='flex p-4 font-mono font-medium gap-[3%]'>
+      <div className='flex p-4 font-mono font-medium gap-[3%] '>
         <div>HOME</div>
         <div>FEATURES</div>
         <div>EXAMS</div>
